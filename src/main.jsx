@@ -16,8 +16,10 @@ class Panel extends React.Component{
   }
   render(){
     return <div>
+      <button>测试</button>
       <button onClick={this.show}>显示</button>
       <button onClick={this.hide}>隐藏</button>
+
     </div>
   }
 }
